@@ -5,8 +5,8 @@ const {
   updateUser,
   deleteUser,
   login,
-} = require("../controllers/users");
-const { hashPassword } = require("../middleware");
+} = require("../controllers/user");
+const { hashPassword } = require("../middleware/index");
 
 const userRouter = Router();
 
