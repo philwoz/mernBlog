@@ -38,11 +38,7 @@ userSchema.methods.generateAuthToken = async function () {
     expiresIn: "1 week",
   });
 
-  console.log(token);
-  // this.tokens.push({ token });
-  // console.log(this.tokens);
 
-  // await this.save();
 
   return token;
 };
