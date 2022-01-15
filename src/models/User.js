@@ -38,8 +38,6 @@ userSchema.methods.generateAuthToken = async function () {
     expiresIn: "1 week",
   });
 
-
-
   return token;
 };
 
